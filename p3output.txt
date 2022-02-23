@@ -1,1 +1,22 @@
-
+ gcc -g p3original.c
+ ./a.out
+Enter a number: 1
+1 is a prime number.
+ ./a.out
+Enter a number: 2
+2 is a prime number.
+ ./a.out
+Enter a number: 3
+3 is a prime number.
+ ./a.out
+Enter a number: 4
+4 is not a prime number.
+ ./a.out
+Enter a number: 6
+6 is not a prime number.
+ ./a.out
+Enter a number: 21
+21 is not a prime number.
+ ./a.out
+Enter a number: 17
+17 is a prime number.
