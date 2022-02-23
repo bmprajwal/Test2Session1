@@ -1,1 +1,25 @@
-
+ gcc -g p4original.c
+ ./a.out
+Enter a number: 1
+The 1th fibonacci number is 0.
+ ./a.out
+Enter a number: 2
+The 2th fibonacci number is 1.
+ ./a.out
+Enter a number: 3
+The 3th fibonacci number is 1.
+ ./a.out
+Enter a number: 4
+The 4th fibonacci number is 2.
+ ./a.out
+Enter a number: 5
+The 5th fibonacci number is 3.
+ ./a.out
+Enter a number: 6
+The 6th fibonacci number is 5.
+ ./a.out
+Enter a number: 9
+The 9th fibonacci number is 21.
+ ./a.out
+Enter a number: 20
+The 20th fibonacci number is 4181.
