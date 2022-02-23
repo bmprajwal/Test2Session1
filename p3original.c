@@ -19,17 +19,14 @@ int input_number(){
 }
 int is_prime(int n){
   int count = 0;
-  if(n==1)
-    return 1;
-  else 
-    for(int i=1; i<=n;i++){
-      if(n%i==0)
-      count++;
-    }
+  for(int i=1; i<=n;i++){
+    if(n%i==0)
+    count++;
+  }
    return count;
 }
 void output(int n, int isprime){
-  if(isprime==1 || isprime<=2)
+  if(isprime<=2)
     printf("%d is a prime number.\n",n);
   else
     printf("%d is not a prime number.\n",n);
