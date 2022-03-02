@@ -21,7 +21,7 @@ int input_array_size(){
   return n;
 }
 void init_array(int n, int a[n]){
-  for(int i=0; i<n; i++)
+  for(int i=0; i<n-1; i++)
     a[i] = i + 2;
 }
 void eratosthenes_sieve(int n, int a[n]){
@@ -35,7 +35,7 @@ void output(int n, int a[n]){
   printf("Prime numbers upto %d are ", n);
   for(int i=0; i<n-1; i++){
     if(a[i]!=0)
-      printf("%d, ", a[i]);
+      printf("%d\t", a[i]);
   }
   printf("\n");
 }

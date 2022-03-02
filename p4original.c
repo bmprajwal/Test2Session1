@@ -24,6 +24,9 @@ int find_fibo(int n){
     return a;
   else if(n==2)
     return b;
+  else if(n<=0)
+    return -1;
+    
   else{
     for(int i = 2; i<n; i++){
       c = a + b;
@@ -34,5 +37,8 @@ int find_fibo(int n){
   }
 }
 void output(int n, int fibo){
-  printf("The %dth fibonacci number is %d.\n", n, fibo);
+  if(fibo!=-1)
+   printf("The %dth fibonacci number is %d.\n", n, fibo);
+  else 
+   printf("Invalid input!\n");
 }
